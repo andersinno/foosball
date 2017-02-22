@@ -1,5 +1,7 @@
 {% extends "games/games_base.jinja" %}
 
+{% block title %}{{ _("Result input") }} - {{ super() }}{% endblock title %}
+
 {% block extra_css %}
     {{ form.media.css }}
 {% endblock %}
