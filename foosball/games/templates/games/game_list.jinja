@@ -1,6 +1,8 @@
 {% extends "games/games_base.jinja" %}
 {% import "games/macros.jinja" as macros with context %}
 
+{% block title %}{{ _("Games") }} - {{ super() }}{% endblock title %}
+
 {% block content %}
     <div class="row">
         <div class="col-md-6">

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-13 00:20+0300\n"
+"POT-Creation-Date: 2017-02-23 11:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Juha Louhiranta <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,90 +22,161 @@ msgstr ""
 msgid "Score"
 msgstr "Tulos"
 
-#: foosball/games/forms.py:40
+#: foosball/games/forms.py:40 foosball/games/templates/games/game_list.jinja:36
 msgid "Players"
 msgstr "Pelaajat"
 
-#: foosball/games/models.py:11
+#: foosball/games/models.py:14
 msgid "name"
 msgstr "nimi"
 
-#: foosball/games/models.py:12
+#: foosball/games/models.py:15
 msgid "description"
 msgstr "kuvaus"
 
-#: foosball/games/models.py:20
+#: foosball/games/models.py:23
 msgid "created by"
 msgstr "luonut"
 
-#: foosball/games/models.py:23
+#: foosball/games/models.py:26
 msgid "modified by"
 msgstr "muokannut"
 
-#: foosball/games/models.py:28
+#: foosball/games/models.py:31
 msgid "played at"
 msgstr "pelattu"
 
-#: foosball/games/models.py:29
+#: foosball/games/models.py:32
 msgid "Time when the game was played"
 msgstr "Aika, jolloin peli pelattiin"
 
-#: foosball/games/models.py:32
+#: foosball/games/models.py:35
 msgid "table"
 msgstr "pöytä"
 
-#: foosball/games/models.py:46
+#: foosball/games/models.py:49
 msgid "Unknown"
 msgstr "Ei tiedossa"
 
-#: foosball/games/models.py:47 foosball/games/templates/games/game_new.jinja:19
+#: foosball/games/models.py:50 foosball/games/templates/games/game_new.jinja:21
 msgid "Red"
 msgstr "Punainen"
 
-#: foosball/games/models.py:48 foosball/games/templates/games/game_new.jinja:23
+#: foosball/games/models.py:51 foosball/games/templates/games/game_new.jinja:25
 msgid "Blue"
 msgstr "Sininen"
 
-#: foosball/games/models.py:50
+#: foosball/games/models.py:53
 msgid "side"
 msgstr "puoli"
 
-#: foosball/games/models.py:54
+#: foosball/games/models.py:57
 msgid "score"
 msgstr "tulos"
 
-#: foosball/games/models.py:55
+#: foosball/games/models.py:58
 msgid "Team's score in the game"
 msgstr "Joukkueen tulos pelissä"
 
-#: foosball/games/templates/games/game_detail.jinja:6
+#: foosball/games/models.py:73
+msgid "wins - singles"
+msgstr "voitot - yksinpelit"
+
+#: foosball/games/models.py:74
+msgid "Wins in a single player team"
+msgstr "Voittojen määrä yksinpeleissä"
+
+#: foosball/games/models.py:78
+msgid "win percentage - singles"
+msgstr "voittoprosentti - yksinpelit"
+
+#: foosball/games/models.py:79
+msgid "Win percentage for single player team games"
+msgstr "Voittoprosentti yksinpeleissä"
+
+#: foosball/games/models.py:85
+msgid "wins - doubles"
+msgstr "voitot - joukkuepelit"
+
+#: foosball/games/models.py:86
+msgid "Wins in a two player team"
+msgstr "Voittojen määrä joukkuepeleissä"
+
+#: foosball/games/models.py:90
+msgid "win percentage - doubles"
+msgstr "voittoprosentti - joukkuepelit"
+
+#: foosball/games/models.py:91
+msgid "Win percentage in two player team games"
+msgstr "Voittoprosentti joukkuepeleissä"
+
+#: foosball/games/models.py:97
+msgid "total played"
+msgstr "pelejä yhteensä"
+
+#: foosball/games/models.py:98
+msgid "Total games played in"
+msgstr "Kaikkien pelien lukumäärä"
+
+#: foosball/games/models.py:102
+msgid "singles played"
+msgstr "yksinpelejä yhteensä"
+
+#: foosball/games/models.py:103
+msgid "Total games played as a single player team"
+msgstr "Yksinpelien lukumäärä"
+
+#: foosball/games/models.py:107
+msgid "doubles played"
+msgstr "joukkuepelejä yhteensä"
+
+#: foosball/games/models.py:108
+msgid "Total games played in a two player team"
+msgstr "Joukkuepelien lukumäärä"
+
+#: foosball/games/models.py:112
+msgid "colour code"
+msgstr "värikoodi"
+
+#: foosball/games/models.py:113
+msgid "Player colour as a hex colour code"
+msgstr "Pelaajan väri heksavärikoodina"
+
+#: foosball/games/templates/games/game_detail.jinja:3
+#: foosball/games/templates/games/game_detail.jinja:8
 msgid "Game"
 msgstr "Peli"
 
-#: foosball/games/templates/games/game_list.jinja:7
+#: foosball/games/templates/games/game_list.jinja:4
+#: foosball/games/templates/games/game_list.jinja:9
 msgid "Games"
 msgstr "Pelit"
 
-#: foosball/games/templates/games/game_list.jinja:8
+#: foosball/games/templates/games/game_list.jinja:10
+#: foosball/games/templates/games/game_new.jinja:3
 msgid "Result input"
 msgstr "Tulosten syöttö"
 
-#: foosball/games/templates/games/game_list.jinja:22
+#: foosball/games/templates/games/game_list.jinja:24
 msgid "No games have been played."
 msgstr "Yhtään peliä ei ole vielä pelattu."
 
-#: foosball/games/templates/games/game_new.jinja:13
+#: foosball/games/templates/games/game_list.jinja:30
+msgid "Red or Blue"
+msgstr "Punainen vai sininen"
+
+#: foosball/games/templates/games/game_new.jinja:15
 msgid "Input a new score"
 msgstr "Syötä uusi tulos"
 
-#: foosball/games/templates/games/game_new.jinja:29
+#: foosball/games/templates/games/game_new.jinja:31
 msgid "Submit"
 msgstr "Lähetä"
 
-#: foosball/games/tests/test_forms.py:38 foosball/games/utils.py:25
+#: foosball/games/tests/test_forms.py:38 foosball/games/utils.py:27
 msgid "Maximum number of players is two."
 msgstr "Pelaajien maksimimäärä on kaksi."
 
-#: foosball/games/tests/test_forms.py:55 foosball/games/utils.py:31
+#: foosball/games/tests/test_forms.py:55 foosball/games/utils.py:33
 msgid "Teams contain same players."
 msgstr "Joukkueet sisältävät samoja pelaajia."

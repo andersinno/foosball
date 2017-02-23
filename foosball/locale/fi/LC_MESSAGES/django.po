@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-13 00:20+0300\n"
+"POT-Creation-Date: 2017-02-23 11:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Juha Louhiranta <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -298,8 +298,18 @@ msgid "Games"
 msgstr "Pelit"
 
 #: foosball/templates/base.html:50 foosball/templates/base.jinja:50
+#: foosball/templates/pages/about.jinja:3
+#: foosball/templates/pages/about.jinja:11
 msgid "About"
 msgstr "Tietoa"
+
+#: foosball/templates/pages/about.jinja:14
+msgid "International Table Soccer Federation"
+msgstr ""
+
+#: foosball/templates/pages/about.jinja:15
+msgid "Official ITSF Rulebook 2016"
+msgstr "Virallinen ITSF sääntökirja 2016"
 
 #: foosball/templates/pages/home.jinja:7
 msgid "Office fußball results!"
