@@ -7,9 +7,9 @@ from foosball.users.models import User
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('username', 'email', 'is_staff')
+        fields = ('username',)
 
 
-class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
+class UserViewSet(viewsets.ReadOnlyModelViewSet):
+    queryset = User.objects.filter(is_active=True)
     serializer_class = UserSerializer
