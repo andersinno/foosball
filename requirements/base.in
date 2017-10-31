@@ -4,7 +4,10 @@
 # Verified bug on Python 3.5.1
 wheel
 
-django
+django<1.11  # django-superforms didn't yet support 1.11 or later
+django-extensions
+
+ipython
 
 # Configuration
 django-environ
@@ -25,10 +28,8 @@ django-model-utils
 # Images
 Pillow
 
-# For user registration, either via email or social
-# Well-built with regular release cycles!
+# User registration, either via email or social
 django-allauth
-#-e git+https://github.com/pennersr/django-allauth.git@cf45cc605a3d2b49efb1309960df7ee6059175cd#egg=django-allauth==0.25.2
 
 # Python-PostgreSQL Database Adapter
 psycopg2

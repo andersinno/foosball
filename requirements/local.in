@@ -3,13 +3,11 @@
 coverage
 django_coverage_plugin
 Sphinx
-django-extensions
 Werkzeug
 django-test-plus
 factory_boy
 
-# Use unreleased version to have django-jinja fix for django 1.10 (https://github.com/jazzband/django-debug-toolbar/pull/876)
--e git+https://github.com/jazzband/django-debug-toolbar.git@e174168683d9d81e918c2f5e4542079c7606f3ae#egg=django-debug-toolbar==1.6.0.1
+django-debug-toolbar
 
 # improved REPL
 ipdb
