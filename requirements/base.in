@@ -4,7 +4,7 @@
 # Verified bug on Python 3.5.1
 wheel
 
-django
+django<1.11  # django-superforms didn't yet support 1.11 or later
 django-extensions
 
 ipython
