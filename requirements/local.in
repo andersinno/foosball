@@ -3,7 +3,6 @@
 coverage
 django_coverage_plugin
 Sphinx
-django-extensions
 Werkzeug
 django-test-plus
 factory_boy
